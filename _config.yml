@@ -1,0 +1,23 @@
+# Site
+title: Future Lab
+subtitle: um grupo de estudos
+
+# URL
+url: http://www.futurelab.vision
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4449
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
